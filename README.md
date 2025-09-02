@@ -81,7 +81,7 @@ A selection is **only attractive if:**
 
 ## 4) Long-term EV logic
 - A typical “risk-approved” trade (Score ≥ 90) might show a **QL of £2–£3**.  
-- If the horse lands in the extra place, the **profit is often 10×–50× that loss** (£20–£100+).  
+- If the horse lands in the extra place, the **profit is often 10×–100× that loss** (£20–£200+).  
 - Multiple horses can be backed in the same race (if rated ≥ 90), further increasing the chance of hitting the asymmetric outcome.  
 - Over many iterations, this produces a **positive expectation game**, not gambling.  
 
