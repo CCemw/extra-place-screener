@@ -105,6 +105,7 @@ Importantly, the underlying strategy is **matched betting**, which is fundamenta
 - Over many iterations, the expected value is positive, not chance-driven.  
 
 The purpose here is to showcase **risk-modelling and decision-support logic** — not to gamble — in a way that can be extended to other systematic domains (e.g, trading, research...)
+(Note: This strategy has been implemented live (by me), and the matched-betting structure reduces any essence of 'gambling')
 ---
 
 ## 6) Key Takeaways
