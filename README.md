@@ -5,7 +5,7 @@
 -  **Risk-first:** Uses Qualifying Loss (QL) and liability caps to filter opportunities.  
 -  **Positive EV logic:** Explicit break-even probabilities, value gaps, and model EV to identify long-term favourable setups.  
 -  **Systematic, not gambling:** Typical QL = £2–£3 for potential payoffs 10–100× higher; multiple horses per race can be risk-approved; variance smooths out over many runs.  
--  **Why it matters:** Shows how small, controlled losses can be structured into a long-term positive expectation model — with transparent, auditable maths.  
+-  **Why it matters:** Shows how small, controlled losses can be structured into a long-term positive expectation model, with transparent, auditable maths.  
 
 # Extra Place Screener — Decision Support “Brain”
 
@@ -15,7 +15,7 @@ It is built to demonstrate **risk-first thinking**, **positive EV logic**, and *
 
 - **Inputs:** fixed CSV files (racecard, lay odds).  
 - **Outputs:** transparent tables ranking opportunities, with a risk-approved shortlist.  
-- **No live APIs, no wallets, no order placement.** This is the *brain/calculator layer* only — reproducible, auditable, and gambling-free.
+- **No live APIs, no wallets, no order placement.** This is the *brain/calculator layer* only (reproducible, auditable, and gambling-free.)
 
 ---
 
@@ -24,11 +24,11 @@ An **each-way bet** is two bets at the bookmaker:
 - **Win leg:** horse must win.  
 - **Place leg:** horse must finish in the paid places.
 
-Normally, both bookmaker and exchange pay (e.g., top 3). Sometimes the bookmaker offers **one extra place** (e.g., top 4).  
+Normally, both bookmaker and exchange pay (e.g., top 4). Sometimes the bookmaker offers **one extra place** (e.g., top 5).  
 If your horse finishes exactly in that extra slot:
 
-- **Bookmaker:** place bet wins (pays top 4).  
-- **Exchange:** lay bet wins (you laid top 3, horse was 4th).  
+- **Bookmaker:** place bet wins (pays top 5).  
+- **Exchange:** lay bet wins (you laid top 4, horse was 5th).  
 
 This overlap creates a **positive tail outcome**: both sides pay simultaneously.  
 All other outcomes typically cost a **small, controlled Qualifying Loss (QL)**. The edge comes from whether the probability of landing in that extra place outweighs the frequent small losses → **positive Expected Value (EV).**
@@ -111,7 +111,7 @@ The purpose here is to showcase **risk-modelling and decision-support logic** �
 - **Risk is first-class:** trades are filtered by liability and QL before EV is even considered.  
 - **Edge is explicit:** break-even thresholds vs. market-consistent probabilities.  
 - **Reproducible:** fixed seed, pure stdlib, auditable outputs.  
-- **Extendable:** the same framework could drive live systems (APIs, portfolio optimisation, CI testing).  
+- **Extendable:** the same framework could and has driven live systems (APIs, portfolio optimisation, CI testing), however I have not published here.  
 
 This is a demonstration of **systematic edge detection under risk constraints**, framed in a transparent, auditable way.
 
